@@ -1,5 +1,5 @@
 # Multimodal Tactile & Spatial Sensor Fusion Pipeline
-![Dashboard Demo](ezgif.com-video-to-gif-converter.gif)
+![Dashboard Demo](pipeline.mp4)
 A dual-brain multimodal data pipeline that fuses 5DT tactile-glove kinematics and MediaPipe spatial tracking into a neuro-symbolic Unity dashboard.
 
 # 🧠 System Architecture 
@@ -27,6 +27,7 @@ In this work, I am trying to meet a strict hardware/software architectural const
 Standard RGB Webcam (1080p recommended), but I am using 720p
 Windows OS (Required for fglove.dll execution); I got this from their SDK
 
+![Dashboard Demo](ezgif.com-video-to-gif-converter.gif)
 🚀 Installation & Execution
 1. Set up the Tactile Environment (32-bit)
 You must use a 32-bit installation of Python for this step. Download the official 5DT SDK and place your fglove.dll file directly into the python_32bit_tactile directory. Open a 32-bit terminal and run:
