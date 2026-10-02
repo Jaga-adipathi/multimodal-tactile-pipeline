@@ -7,6 +7,7 @@ This project solves a strict hardware/software architectural constraint: the pro
 Node 1 (32-bit Python): Extracts 5-finger float arrays from the 5DT Glove via USB. Broadcasts on UDP Port 5xxx. 5DT glove isn't allowing 64-bit modules.
 Node 2 (64-bit Python): Extracts wrist X, Y, Z spatial coordinates using OpenCV/MediaPipe. Broadcasts on UDP Port 5xxx.
 Node 3 (Unity Engine): A dual-threaded C# script ingests both streams simultaneously without frame-blocking, mapping the data to a 2D scrolling waveform UI and a live 3D spatial hand model.
+
 📁 Repository Structure
 ├── python_32bit_tactile/      # 32-bit environment for 5DT Glove
 │   └── transmitter.py         # Broadcasts finger kinematics to Port 5xxx
