@@ -39,5 +39,3 @@ Open the unity_dashboard folder in Unity Hub (Unity 2022+ recommended).
 
 Open the Main Scene and press Play.
 Hardware Calibration: Once running, stretch your fingers backward as far as possible for one second, then squeeze them into a tight fist. This calibrates the absolute minimum and maximum thresholds for the 3D hand model.
-
-When you click the **Preview** tab after pasting this, you will see a clean folder tree, properly styled bullet points, and highlighted command-line blocks.
